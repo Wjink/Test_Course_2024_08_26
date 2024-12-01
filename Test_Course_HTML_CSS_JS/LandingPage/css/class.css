@@ -1,0 +1,395 @@
+.maxWidth{
+    max-width: 1115px;
+}
+
+/* nav bar */
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+
+.navButtons{
+    word-spacing: 45px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navButtons a{
+    text-decoration: none;
+    color: grey;
+    transition: 300ms;
+}
+
+.navButtons a:hover{ 
+    color: #1FE1AD;
+}
+
+/* section Home */
+
+.sectionHome{
+    background-image: url('/LandingPage/img/hero-bg.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.sectionHomeContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.sectionHomeText{
+    width: 557.5px;
+}
+
+.sectionHome h3{
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sectionHomeImages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    padding-top: 60px;
+    margin-bottom: 220px;
+}
+
+.sectionHomeImg{
+    width: 141.69px;
+}
+
+/* section About */
+
+.sectionAboutH2H4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionAbout h4,
+.sectionAbout h2{
+    text-align: center;
+}
+
+.sectionAbout h4{
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+}
+
+.sectionAbout h2{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #343A40;
+    width: 700px;
+}
+
+.sectionAboutContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sectionAboutContainer img{
+    padding-left: 8px;
+    width: 69px;
+    height: 73px;
+}
+
+.sectionAboutContainerTitle{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sectionAboutContainerText{
+    color: rgb(108, 117, 125);
+    max-width: 300px;
+    font-size: 16px;
+}
+
+.sectionAboutContainer a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+/* section Projects */
+
+.sectionProject{
+    margin-top: 200px;
+}
+
+.sectionProjectH2H4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionProject h4,
+.sectionProject h2{
+    text-align: center;
+}
+
+.sectionProject h4{
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+}
+
+.sectionProject h2{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #343A40;
+    width: 700px;
+}
+
+.sectionProjectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+
+}
+
+.sectionProjectButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 36%;
+}
+
+.sectionProjectButtons button{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    transition: 150ms;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sectionProjectButtons button:hover{
+    background-color: #1FE1AD;
+    box-shadow: 2px 2px 5px #7eddc4;
+    color: white;
+}
+
+.sectionProjectContainer img{
+    width: 356px;
+}
+
+.sectionProjectContainerImage{
+    box-shadow: 0px 2px 2px lightgray;
+    margin-bottom: 20px;
+}
+
+.sectionProjectContainerImage p{
+    padding-left: 15px;
+}
+
+.sectionProjectContainerTitle{
+    font-size: 20px;
+}
+
+.sectionProjectContainerText{
+    color: grey;
+}
+
+/* section Testimonial */
+
+.sectionTestimonial{
+    background-color: rgb(255, 240, 196);
+}
+
+.sectionTestimonialH2H4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTestimonial h4,
+.sectionTestimonial h5,
+.sectionTestimonial h2{
+    text-align: center;
+}
+
+.sectionTestimonial h4{
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+}
+
+.sectionTestimonial h2{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #343A40;
+    width: 700px;
+}
+
+.roundedImage{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.quote{
+    width: 50px;
+    float: right;
+}
+
+.sectionTestimonialUsersContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.sectionTestimonialUser{
+    max-width: 318px;
+    background-color: white;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px lightgray;
+}
+
+/* number div */
+.numberDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.numberDivNumber{
+    font-size: 40px;
+    color: #343A40;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.numberDivText{
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+    margin: 0;
+}
+/* section Team */
+
+.sectionTeamH2H4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTeam h4,
+.sectionTeam h5,
+.sectionTeam h2{
+    text-align: center;
+}
+
+.sectionTeam h4{
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+}
+
+.sectionTeam h2{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #343A40;
+    width: 700px;
+}
+
+.sectionTeamContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.sectionTeamContainerUserImage{
+    width: 261px;
+    background-color: aliceblue;
+}
+
+.sectionTeamContainerImage{
+    max-width: 300px;
+}
+
+.sectionTeam{
+    margin-bottom: 200px;
+}
+
+/* footer */
+
+.sectionFooterContainer{
+    background-image: url('/LandingPage/img/footer-light-bg.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    margin: 30px auto;
+    padding: 100px 0px;
+    margin-bottom: 20px;
+}
+
+.sectionFooterContainer h3{
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.sectionFooterDiv a{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: gray;
+}
+
+.sectionFooterDiv{
+    padding: 0px 12px;
+    font-size: 16px;
+}
+
+.subSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    background-color: #343A40;
+    height: 150px;
+}
+
+.subSectionDiv{
+    padding: 0px 50px;
+}
+
+.subSectionDiv h3{
+    color: white;
+}
+
+.subSectionDiv p{
+    color: lightgray;
+}

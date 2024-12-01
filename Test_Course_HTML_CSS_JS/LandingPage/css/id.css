@@ -1,0 +1,67 @@
+/* section home */
+
+#greenText{
+    color: #1FE1AD;
+}
+
+#greenTextP{
+    border: 1px solid rgb(236, 239, 242);
+    background-color: rgb(248, 249, 250);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-top: 0;
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+    
+}
+
+#buttonMoreAboutUs{
+    background-image: linear-gradient(to right, #1FE1AD, #9ff3dd);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#buttonSeeLiveDemo{
+    border: none;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#heroImg{
+    width: 557.5px;
+}
+
+#subSectionDiv1{
+    max-width: 450px;
+}
+
+#footerSearchBar{
+    width: 411px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: rgb(148, 155, 161);
+    border: none;
+    
+}
+
+#footerSearchButton{
+    border: none;
+    border-radius: 5px;
+    background-color: #1FE1AD;
+    color: white;
+    position: absolute;
+    width: 150px;
+    height: 42px;
+    right: 448px;
+    top: 4316px
+}

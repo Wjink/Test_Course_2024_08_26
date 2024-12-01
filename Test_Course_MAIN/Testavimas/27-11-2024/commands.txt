@@ -1,0 +1,3 @@
+npm init -> spam "Enter" or npm init -y
+npm install express body-parser
+node index.js

@@ -1,0 +1,29 @@
+.flexContainer{
+    display: flex;
+    /* height: 100vh; */
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.gridItem{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.gridItem div{
+    background-color: beige;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.item{
+    order: 3;
+}

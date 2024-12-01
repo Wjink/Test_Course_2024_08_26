@@ -1,0 +1,13 @@
+u{
+    color: blue;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#content{
+    margin: auto;
+    width: 30%;
+    font-size: 17px;
+}

@@ -1,0 +1,25 @@
+#lentele1 th,
+#lentele1 td,
+#lentele1 tr{
+    border-left: 3px solid grey;
+    border-top: 3px solid grey;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+#lentele1{
+    margin: auto;
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+}
+
+#lenteleHeader{
+    text-align: center;
+}
+
+#day19{ 
+    background-color: red;
+}

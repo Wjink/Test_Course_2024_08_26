@@ -1,0 +1,44 @@
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.divBorder{
+    border: 3px dotted black;
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* ">" geriau deti*/
+/* table>tbody>tr{
+    background-color: aquamarine;
+} */
+
+.myTable tr > td:last-child{
+    background-color: red;
+}
+

@@ -1,0 +1,83 @@
+.bodyDiv{
+    width: 800px;
+    height: 1200px;
+    border: 1px solid black;
+    padding: 40px 20px;
+}
+
+.bodyDiv h1,
+.bodyDiv h2,
+.bodyDiv h3,
+.bodyDiv h4,
+.bodyDiv h5,
+.bodyDiv h6{
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.bodyDiv h1{
+    font-size: 40px;
+}
+
+.bodyDiv h3{
+    font-size: 20px;
+}
+
+.bodyDiv section{
+    margin-bottom: 80px;
+}
+
+.bodyDivContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+#myTable3,
+#myTable3 tr,
+#myTable3 th,
+#myTable3 td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#myTable3>tbody>tr:last-child>td{
+    
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+.bodyDiv section.buyer-seller-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 45px;
+    margin-bottom: 100px;
+}
+
+#myTable1 th,
+#myTable2 th{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#myTable1 td,
+#myTable2 td{
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+}
+
+.one-line{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
