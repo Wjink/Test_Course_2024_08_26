@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cypress": "npx cypress open"
+  },
+  "devDependencies": {
+    "cypress-terminal-report": "^7.1.0"
+  },
+  "dependencies": {
+    "cypress": "^13.17.0"
+  }
+}

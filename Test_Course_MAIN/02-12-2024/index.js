@@ -69,7 +69,7 @@ app.get('/user/username/:username', (req, res) => {
     if (!user) {
         return res.status(404).json({ error: 'User not found.' });
     }
-
+    
     res.json(user);
 });
 
@@ -77,12 +77,12 @@ app.get('/user/username/:username', (req, res) => {
 app.get('/user/email/:email', (req, res) => {
     const { email } = req.params;
 
+    const user = Object.values(users).find(user => user.email === email);
     if (!users[email]) {
         return res.status(404).json({ error: 'User not found.' });
     }
 
-    const { password, ...userWithoutPassword } = users[email]; // Exclude password from the response
-    res.json(userWithoutPassword);
+    res.json(user);
 });
 
 
@@ -146,7 +146,7 @@ app.delete('/user/:username', (req, res) => {
     }
 
     delete users[emailToDelete];
-    res.json({ message: `Oh no, you've killed '${username}'!` });
+    res.json({ message: `Oh no, you've deleted '${username}'!` });
 });
 
 // Start server
